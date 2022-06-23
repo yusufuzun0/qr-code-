@@ -1,0 +1,50 @@
+
+
+*{
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+*::selection{
+    background-color: aqua;
+    color: red;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.generator input{
+    height: 40px;
+    width: 400px;
+    font-size: 25px;
+}
+.generator button{
+    position: relative;
+    height: 44px;
+    width: 150px;
+    font-size: 22px;  
+    box-shadow: 2px 2px 5px;
+    background-color: wheat;
+    top: -2px;
+    border: none;
+    left: 15px;
+}
+
+
+.btn:active{
+    border-radius: 10%;
+    box-shadow: none;
+}
+.box{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding-top: 25px;
+    padding-right: 50px;
+}
